@@ -8,6 +8,7 @@ export default defineConfig({
   base: '/vitepress-doc/',
   srcDir: './src',
   cleanUrls: true,
+  head: [['link', { rel: 'icon', href: '/vitepress-doc/logo.jpg' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     outline: {
