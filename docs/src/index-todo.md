@@ -3,4 +3,4 @@
 layout: home
 ---
 
-home page
+home page customize

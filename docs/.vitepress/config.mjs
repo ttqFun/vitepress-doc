@@ -3,12 +3,12 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: "en-US",
-  title: "Safnect Wallet",
-  description: "Safnect WalletConnect Document",
+  title: "Doc. Site test",
+  description: "Documentation Static Site",
   base: '/vitepress-doc/',
   srcDir: './src',
   cleanUrls: true,
-  head: [['link', { rel: 'icon', href: '/vitepress-doc/logo.jpg' }]],
+  head: [['link', { rel: 'icon', href: '/vitepress-doc/logo.png' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     outline: {
@@ -16,14 +16,14 @@ export default defineConfig({
     },
     sidebar: [
       {
-        text: 'WalletConnect API',
+        text: 'Your API',
         items: [
           { text: 'Introduction', link: '/introduction' },
           {
-            text: 'Supported Networks',
+            text: 'Supported Works',
             collapsed: true,
             items: [
-              { text: 'Fractal Bitcoin', link: '/fractal-bitcoin' },
+              { text: 'Work-Life-Balance', link: '/wlb' },
             ]
           }
         ]
